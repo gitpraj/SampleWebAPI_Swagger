@@ -16,7 +16,7 @@ namespace WebApplication3.Controllers
         /// <returns></returns>
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Prajith", "Maniyan" };
         }
 
         // GET api/values/5
