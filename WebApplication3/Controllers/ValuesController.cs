@@ -26,8 +26,9 @@ namespace WebApplication3.Controllers
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        public IEnumerable<string> Post([FromBody]string value)
         {
+            return new string[] { "Shamia", "Sekar" };
         }
 
         // PUT api/values/5
